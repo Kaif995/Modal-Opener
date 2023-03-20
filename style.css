@@ -1,0 +1,26 @@
+body{
+    background-color: green;
+}  
+.container{
+display: flex;
+justify-content: space-around;
+margin: 2rem;
+}  
+.item{
+    border:1px solid white;
+    border-radius: 20rem;
+    height: 2rem;
+    width: 7 rem;
+}   
+.modal{
+    width:50%;
+    background: white;
+    border: 2px solid black;
+    display: none;
+}
+.dlte{
+    position: relative;
+    left: 28.5rem;
+    top:-5rem;
+    cursor: pointer;
+}
